@@ -1,6 +1,6 @@
 ## Projet site poutine
 
-#### Commandes utile:
+#### Commandes:
 
 * ``php composer.phar update``
 * ``yarn install``
