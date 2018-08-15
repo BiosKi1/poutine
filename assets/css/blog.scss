@@ -1,6 +1,10 @@
 body{
   background-color: #ffcc3f;
 }
+.bg-black{
+  background-color: #252525;
+  padding: 25px;
+}
 .container-fluid{
   h2, h3{
     color: #024e7f;
@@ -20,4 +24,21 @@ body{
     width: 70%;
     margin: auto;
   }
+  hr{
+    width: 60%;
+    height: 2px;
+    background-color: #024e7f;
+    box-shadow: 2px 2px 5px #023a60;
+  }
+}
+
+.bg-black{
+  background-color: #252525;
+  padding: 25px;
+}
+.footerLk {
+  color: #b4b4b4;
+}
+.footerImg {
+  width: 5%;
 }

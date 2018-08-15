@@ -17,6 +17,15 @@ class DefaultController extends Controller
         ]);
     }
     /**
+     * @Route("/photos", name="photos")
+     */
+    public function photos()
+    {
+        return $this->render('default/photos.html.twig', [
+            'controller_name' => 'DefaultController',
+        ]);
+    }
+    /**
      * @Route("/histoire", name="histoire")
      */
     public function histoire()

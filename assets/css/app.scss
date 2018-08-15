@@ -14,7 +14,7 @@ body{
     }
 
     #avisCarousel{
-        height: 300px;
+        height: 350px;
         color: white;
         .imgAvis{
             width: 15%;
@@ -26,11 +26,37 @@ body{
             color: #ffcc3f;
         }
     }
-    
+
+    #photosCarousel{
+        height: 550px;
+        .carousel-indicators li.active {
+            background-color: #ffcc3f;
+        }
+    }
     .menuTitle{
         color: #ffcc3f;
     }
     .menuDescTitle{
         color: white;
+    }
+    hr{
+        width: 60%;
+        height: 2px;
+        background-color: #024e7f;
+        box-shadow: 2px 2px 5px #023a60;
+    }
+}
+
+.footer {
+    margin-top: 3%;
+    .bg-black{
+        background-color: #252525;
+        padding: 25px;
+    }
+    .footerLk {
+        color: #b4b4b4;
+    }
+    .footerImg {
+        width: 5%;
     }
 }

@@ -25,6 +25,9 @@
                     <a class="nav-link" href="{{ path('index') }}">Menu</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ path('photos') }}">Photos</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ path('avis') }}">Avis</a>
                 </li>
                 <li class="nav-item">
@@ -47,6 +50,35 @@
 {% block body %}{% endblock %}
 <br>
 {% block footer %}
+    <div class="container-fluid text-center bg-black">
+        <h2>Suivez-nous !</h2>
+        <br>
+        <hr/>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <a class="footerLk" href="https://www.facebook.com/MaisonDeLaPoutine/" target="_blank">
+                    Suivez-nous sur Facebook
+                    <img src="{{ asset('img/social/fb.png') }}" alt="" class="footerImg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="footerLk" href="https://www.instagram.com/maisondelapoutine/" target="_blank">
+                    Suivez-nous sur Instagram
+                    <img src="{{ asset('img/social/ig.png') }}" alt="" class="footerImg">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a class="footerLk" href="https://www.tripadvisor.fr/Restaurant_Review-g187147-d13202187-Reviews-Maison_de_la_Poutine-Paris_Ile_de_France.html" target="_blank">
+                    Suivez-nous sur Tripadvisor
+                    <img src="{{ asset('img/social/trip.png') }}" alt="" class="footerImg">
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script href="{{ asset('build/app.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.1/umd/popper.min.js" integrity="sha256-AoNQZpaRmemSTxMy9xcqXX5VLwI6IMPYugO7bFHOW+U=" crossorigin="anonymous"></script>
