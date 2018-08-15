@@ -1,0 +1,36 @@
+body{
+    background-color: #024e7f;
+}
+.container-fluid{
+    h2, h3{
+        color: #ffcc3f;
+    }
+    .text{
+        color: white;
+        text-align: center;
+    }
+    .btnUber {
+        text-align: center;
+    }
+
+    #avisCarousel{
+        height: 300px;
+        color: white;
+        .imgAvis{
+            width: 15%;
+        }
+        .carousel-indicators li.active {
+            background-color: #ffcc3f;
+        }
+        .author{
+            color: #ffcc3f;
+        }
+    }
+    
+    .menuTitle{
+        color: #ffcc3f;
+    }
+    .menuDescTitle{
+        color: white;
+    }
+}

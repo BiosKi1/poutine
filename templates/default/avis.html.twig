@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Avis{% endblock %}
+
+{% block body %}
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 offset-md-3">
+                <h2>Nos avis</h2>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div id="avisCarousel" class="carousel slide text-center" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#avisCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#avisCarousel" data-slide-to="1"></li>
+                        <li data-target="#avisCarousel" data-slide-to="2"></li>
+                        <li data-target="#avisCarousel" data-slide-to="3"></li>
+                        <li data-target="#avisCarousel" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-5">
+                            "Un restaurant génial à faire absolument."
+                            <br>
+                            <span class="author">GABRIELLE BON, TripAdvisor</span>
+                            <br>
+                            <img src="{{ asset('img/avis/trip.png') }}" alt="" class="imgAvis">
+                        </div>
+                        <div class="carousel-item p-5">
+                            "Sans doute l'une des ouvertures les plus inattendues de ces derniers mois que cette enclave québécoise au cœur du Sentier. Avec, en majesté, le plat le plus doudou et traditionnel de la Belle Province, à savoir la poutine, une préparation «patrimoniale» qui tient au corps, campée sur ses trois fondamentaux: les frites, le cheddar fondu et la sauce brune façon édredon."
+                            <br>
+                            <span class="author">LeFigaro</span>
+                            <br>
+                            <img src="{{ asset('img/avis/figaro.png') }}" alt="" class="imgAvis">
+                        </div>
+                        <div class="carousel-item p-5">
+                            "Le Québec débarque dans nos assiettes sous la forme de son plat le plus «comfort food». Rendez-vous à la Maison de la Poutine, dans le Sentier, pour goûter au combo magique: frites, cheddar et sauce brune. L'établissement garantit le choix de bons produits en provenance de la Belle Province, servis sans l'accent."
+                            <br>
+                            <span class="author">LesEchos</span>
+                            <br>
+                            <img src="{{ asset('img/avis/echo.png') }}" alt="" class="imgAvis">
+                        </div>
+                        <div class="carousel-item p-5">
+                            "La recette la plus gourmande du Québec séduit les parisiens. Véritable emblème national outre-atlantique, la Poutine se faisait très discrète à Paris et en France, jusqu’à ce que le chef Erwan Caradec décide d’y remédier."
+                            <br>
+                            <span class="author">KISS MY CHEF</span>
+                            <br>
+                            <img src="{{ asset('img/avis/kmc.png') }}" alt="" class="imgAvis">
+                        </div>
+                        <div class="carousel-item p-5">
+                            "La poutine c’est quoi ? Une sorte de  raclette revisitée outre-Atlantique où les frites sont recouvertes de fromage fondu, d’épices et d’une sauce brune (veau + volaille). Le résultat ne déçoit pas : on repart le ventre plein avec un plat qui tient au corps."
+                            <br>
+                            <span class="author">A NOUS PARIS</span>
+                            <br>
+                            <img src="{{ asset('img/avis/paris.png') }}" alt="" class="imgAvis">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#avisCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#avisCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

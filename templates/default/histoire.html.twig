@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Notre histoire{% endblock %}
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-md-2">
+                <h2>Notre histoire</h2>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <p class="text">La Maison de la Poutine est le premier « fast-good » 100% poutine en France ! Nous avons décidé de mettre à l’honneur ce plat emblématique du Québec que nous aimons tant.
+
+                    Avec notre Chef Erwan, amoureux de la cuisine gastronomique, nous avons créé des recettes de poutine exclusives, préparées avec des produits frais. La Maison de la Poutine propose une carte de 7 poutines permanentes (dont 2 végétariennes) et une Poutine du Moment.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <img src="{{ asset('img/histoire/resto.jpg') }}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+{% endblock %}

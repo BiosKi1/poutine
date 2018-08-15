@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Notre histoire{% endblock %}
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 offset-md-2">
+                <h2>LIVRAISON</h2>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <p class="text">
+                    La Maison de la Poutine est maintenant sur Uber Eats qui nous permet de vous proposer de livrer dans un rayon d’environ 3Km autour de notre restaurant du 11 rue Mandar !
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <img src="{{ asset('img/livraison/ubereat.png') }}" alt="" class="img-fluid">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4 offset-md-4 btnUber">
+                <a type="button" class="btn btn-outline-success" href="https://www.ubereats.com/fr-FR/paris/food-delivery/la-maison-de-la-poutine/hK4tj3sWRreHzMP0klxSIg/" target="_blank">VOIR NOTRE PAGE UBER EATS</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
