@@ -2,6 +2,6 @@
 
 #### Commandes utile:
 
-* ``npm update``
-* ``yarn encore dev``
+* ``php composer.phar update``
+* ``yarn install``
 * ``php bin/console server:run``
